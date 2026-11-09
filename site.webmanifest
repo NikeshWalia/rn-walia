@@ -1,0 +1,12 @@
+{
+  "name": "R.N. Walia, Architect & Valuer",
+  "short_name": "R.N. Walia",
+  "start_url": "./index.html",
+  "display": "browser",
+  "background_color": "#f1efea",
+  "theme_color": "#f1efea",
+  "icons": [
+    { "src": "assets/img/favicon.svg", "type": "image/svg+xml", "sizes": "any" },
+    { "src": "assets/img/apple-touch-icon.png", "type": "image/png", "sizes": "180x180" }
+  ]
+}
