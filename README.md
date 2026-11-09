@@ -70,7 +70,7 @@ Then open <http://localhost:8000>. (Or use VS Code's "Live Server" extension.)
 3. At your registrar's DNS settings, add a **CNAME** record. Set the host to `www` and the value to `YOUR-USERNAME.github.io`.
    For the bare domain, also add four **A** records for host `@`: `185.199.108.153`, `185.199.109.153`, `185.199.110.153` and `185.199.111.153`.
 4. When the domain works, tick **Enforce HTTPS**. This can take up to 24 hours to become available.
-5. Run `node tools/set-site-url.mjs https://www.yourdomain.in/` and upload the changed files.
+5. Run `node tools/set-site-url.mjs https://www.yourdomain.in/`, change `<base href="/rn-walia/">` in `404.html` to `<base href="/">`, and upload the changed files.
 
 ---
 
